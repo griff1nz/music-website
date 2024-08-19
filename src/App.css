@@ -1,16 +1,20 @@
-#root {
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   
-  text-align: center;
-}
+} */
+ * { /* Firefox automatically adds vertical margins, does more harm than good */
+  margin: 0;
+  padding: 0;
+ }
 
 .background {
   width: 100vw;
-  height: 400px;
+  height: 500px;
   position: fixed;
   top: 0;
   left: 0;
-  object-fit: cover;
-  object-position: 0 30%;
+  background-image: url('../public/placeholder.png'); 
+  background-size: cover;
 }

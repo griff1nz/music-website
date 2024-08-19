@@ -1,11 +1,15 @@
 
 import './App.css'
+import Header from './components/header'
 
 function App() {
 
   return (
     <>
-        <img className='background' src='../public/background.jpg'/>
+      <div className='background'>
+        <Header />
+
+      </div>
     </>
   )
 }

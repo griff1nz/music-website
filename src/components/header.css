@@ -1,0 +1,13 @@
+.header {
+    padding: 1vh 2vw;
+}
+
+.headertext {
+    color: black;
+    font-size: 30px;
+}
+
+a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
