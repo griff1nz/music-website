@@ -12,9 +12,13 @@
 .background {
   width: 100vw;
   height: 500px;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   background-image: url('../public/placeholder.png'); 
   background-size: cover;
+}
+.about {
+  width: 100vw;
+  height: 800px;
 }
