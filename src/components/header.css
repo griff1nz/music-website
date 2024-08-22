@@ -1,5 +1,8 @@
-.header {
+header {
     padding: 1vh 2vw;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
 }
 
 .headertext {

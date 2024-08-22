@@ -1,0 +1,17 @@
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 7vh;
+    background-color: aqua;
+}
+
+.footer-links img:hover {
+    box-shadow: 3px 3px 5px 2px rgb(0 0 0/40%);
+    scale: 120%;
+    display: flex;
+}

@@ -11,14 +11,24 @@
 
 .background {
   width: 100vw;
-  height: 500px;
-  /* position: fixed; */
+  height: 350px;
+  position: relative;
   top: 0;
   left: 0;
   background-image: url('../public/placeholder.png'); 
   background-size: cover;
+  background-position: 0 -30px;
+  background-repeat: no-repeat;
 }
 .about {
   width: 100vw;
   height: 800px;
+}
+#button {
+  position: absolute;
+  bottom: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  left: 0;
+  right: 0;
 }
