@@ -19,6 +19,7 @@
   background-size: cover;
   background-position: 0 -30px;
   background-repeat: no-repeat;
+  align-items: center;
 }
 .about {
   width: 100vw;
@@ -31,4 +32,7 @@
   margin-right: 25%;
   left: 0;
   right: 0;
+}
+#sections {
+  padding: 4px;
 }
