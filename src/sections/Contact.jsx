@@ -1,6 +1,8 @@
 function Contact() {
-    return(
-        <h1>Contact</h1>
+    return (
+        <div className='section'>
+            <h1>Contact</h1>
+        </div>
     )
 }
 export default Contact;

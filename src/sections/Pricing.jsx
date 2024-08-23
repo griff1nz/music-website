@@ -1,6 +1,8 @@
 function Pricing() {
-    return(
-        <h1>Pricing</h1>
+    return (
+        <div className='section'>
+            <h1>Pricing</h1>
+        </div>
     )
 }
 export default Pricing;

@@ -5,9 +5,15 @@ footer {
     height: 7vh;
     background-color: aqua;
 }
-
-.footer-links img:hover {
-    box-shadow: 3px 3px 5px 2px rgb(0 0 0/40%);
-    scale: 120%;
+.footer-links {
     display: flex;
+}
+
+.footer-links img {
+    width: 50px;
+}
+.footer-links img:hover {
+    /* shadow: 3px 3px 5px 2px rgb(0 0 0/40%); */
+    filter: drop-shadow(gray 5px 5px 10px);
+    scale: 120%;
 }

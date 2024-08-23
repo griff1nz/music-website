@@ -23,7 +23,7 @@ function App() {
         <div id='sections'>
           <About />
           <Pricing />
-          <p>pp</p>
+          
           <Lessons />
           <Contact />
         </div>
