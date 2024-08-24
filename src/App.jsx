@@ -14,7 +14,7 @@ function App() {
       <div style={{ minHeight: '93vh' }}>
         <Header />
         <div className='background'>
-          <h2 style={{ textAlign: 'center', paddingTop: '50px' }}>Online Lessons for All Ages</h2>
+          <h2 style={{ textAlign: 'center', paddingTop: '50px' }}>Online Saxophone and Cello Lessons for All Ages</h2>
           <Button id='button' href='https://calendly.com/zion-isaac-griffin' target='_blank' variant="primary" size="lg">
             Book a Lesson!
           </Button>

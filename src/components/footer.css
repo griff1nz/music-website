@@ -2,15 +2,16 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 4px;
-    height: 7vh;
+    height: 6vh;
     background-color: aqua;
+    align-items: center;
 }
 .footer-links {
     display: flex;
 }
 
 .footer-links img {
-    width: 50px;
+    width: 40px;
 }
 .footer-links img:hover {
     /* shadow: 3px 3px 5px 2px rgb(0 0 0/40%); */
