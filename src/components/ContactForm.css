@@ -3,8 +3,38 @@
 } */
 
 
+.formtext {
+    margin: 3px auto;
+}
+form {
+    display: grid;
+    place-items: center;
+    width: 60%;
+    margin: auto;
+}
+@media screen and (max-width: 820px) {
+    form {
+        width: 90%;
+    }
+}
+    
 
-textarea, input {
+.formdiv {
+    margin: 4px;
+    width: 80%;
+}
+#firstnametext, #lastnametext {
+    width: 100%;
+}
+textarea{
+
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
     width: 100%;
     background-color: white;
     color: black;
@@ -12,10 +42,14 @@ textarea, input {
     padding: 0;
     box-sizing: border-box;
 }
+textarea {
+    width: 90%
+}
 
 #sendbutton {
     background-color: #0ea5e9;
     border-radius: 10px;
+    width: 30%;
 }
 #sendbutton:hover {
     background-color: #7dd3fc;

@@ -4,6 +4,7 @@ import { useRef, useState } from 'react';
 import './ContactForm.css'
 
 var resultText;
+var resultColor;
 function ContactForm() {
     // state={
     //     showMessage: false
@@ -21,35 +22,39 @@ function ContactForm() {
                 console.log(result.text);
 
                 resultText = "Thank you for your message! I will get back to you as soon as I can."
+                resultColor = 'green';
                 toggleDisplay();
                 event.target.reset();
             }, (error) => {
                 console.log(error.text);
-                resultText = "There was an error sending your message; Please try again."
+                resultText = "There was an error sending your message; Please try again.";
+                resultColor = 'red';
                 toggleDisplay();
             });
     }
     return (
-        <div>
+        <div style={{margin: '5px'}}>
             <form onSubmit={submitHandler}>
-                <div>
+                <div style={{width:'80%', display: 'flex', justifyContent: 'space-between'}}>
+                    <div className='formdiv'>
                     <label htmlFor='firstnametext'>First Name</label>
-                    <input type='text' required name='firstname' id='firstnametext' />
-                </div>
-                <div>
+                    <input type='text' className='formtext' required name='firstname' id='firstnametext' />
+                    </div>
+                    <div className='formdiv'>
                     <label htmlFor='lastnametext'>Last Name</label>
-                    <input type='text' required name='lastname' id='lastnametext' />
+                    <input type='text' required className='formtext' name='lastname' id='lastnametext' />
+                    </div>
                 </div>
-                <div>
+                <div className='formdiv'>
                     <label htmlFor='emailtext' >Email</label>
-                    <input type='email' required name='email' id='emailtext'></input>
+                    <input type='email' required className='formtext' name='email' id='emailtext'></input>
                 </div>
-                <div >
+                <div className='formdiv' >
                     <label htmlFor='messagetext' >Message</label>
-                    <textarea rows='5' required name='message' id='messagetext'></textarea>
+                    <textarea rows='3' required style={{width:'100%'}}name='message' id='messagetext'></textarea>
                 </div>
                 <button id='sendbutton'>Send</button>
-                {display == 'true' && <p>{resultText}</p>}
+                {display == 'true' && <p style={{color: resultColor}}>{resultText}</p>}
             </form>
         </div>
     )
