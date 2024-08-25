@@ -1,0 +1,22 @@
+/* #name-and-phone input {
+    width: 18vw;
+} */
+
+
+
+textarea, input {
+    width: 100%;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sendbutton {
+    background-color: #0ea5e9;
+    border-radius: 10px;
+}
+#sendbutton:hover {
+    background-color: #7dd3fc;
+}
