@@ -9,6 +9,11 @@ header {
     color: black;
     font-size: 30px;
 }
+.headertext:hover {
+    background-color: gray;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
 
 a {
     margin-left: 5px;

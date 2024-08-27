@@ -38,20 +38,20 @@ function ContactForm() {
                 <div style={{width:'80%', display: 'flex', justifyContent: 'space-between'}}>
                     <div className='formdiv'>
                     <label htmlFor='firstnametext'>First Name</label>
-                    <input type='text' className='formtext' required name='firstname' id='firstnametext' />
+                    <input type='text' className='formtext' placeholder="First Name" required name='firstname' id='firstnametext' />
                     </div>
                     <div className='formdiv'>
                     <label htmlFor='lastnametext'>Last Name</label>
-                    <input type='text' required className='formtext' name='lastname' id='lastnametext' />
+                    <input type='text' required placeholder="Last Name" className='formtext' name='lastname' id='lastnametext'/>
                     </div>
                 </div>
                 <div className='formdiv'>
                     <label htmlFor='emailtext' >Email</label>
-                    <input type='email' required className='formtext' name='email' id='emailtext'></input>
+                    <input type='email' required placeholder="Email" className='formtext' name='email' id='emailtext'></input>
                 </div>
                 <div className='formdiv' >
                     <label htmlFor='messagetext' >Message</label>
-                    <textarea rows='3' required style={{width:'100%'}}name='message' id='messagetext'></textarea>
+                    <textarea rows='3' required style={{width:'100%'}}name='message' placeholder="Enter a message..." id='messagetext'></textarea>
                 </div>
                 <button id='sendbutton'>Send</button>
                 {display == 'true' && <p style={{color: resultColor}}>{resultText}</p>}
