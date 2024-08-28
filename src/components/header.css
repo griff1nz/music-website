@@ -1,8 +1,7 @@
 header {
     padding: 1vh 2vw;
     background-color: #CDCDCD;
-    display: flex;
-    justify-content: space-between;
+    
 }
 
 .headertext {
@@ -20,4 +19,37 @@ header {
 a {
     margin-left: 5px;
     margin-right: 5px;
+    /* font-size: 2rem; */
+    color: black;
+}
+ul a {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 2rem;
+    color: black;
+}
+#desktop {
+    display: flex; 
+    align-items: center; 
+}
+#mobiledropdown {
+    display: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media screen and (max-width: 900px) {
+    #desktop {
+        display: none;
+    }
+    #mobiledropdown {
+        display: block;
+    }
+}
+@media screen and (min-width: 900px) {
+    #mobiledropdown {
+        display: none;
+    }
+    #desktop {
+        display: flex;
+    }
 }
