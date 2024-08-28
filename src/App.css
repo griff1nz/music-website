@@ -15,7 +15,7 @@
   position: relative;
   top: 0;
   left: 0;
-  background-image: url('../public/placeholder.png'); 
+  background-image: url('https://images.pexels.com/photos/45243/saxophone-music-gold-gloss-45243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); 
   background-size: cover;
   background-position: 0 -30px;
   background-repeat: no-repeat;
@@ -44,4 +44,7 @@
 }
 #sections {
   padding: 4px;
+}
+p, li{
+  font-size: 120%;
 }

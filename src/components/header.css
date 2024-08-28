@@ -8,11 +8,13 @@ header {
 .headertext {
     color: black;
     font-size: 30px;
+    padding: 5px;
 }
 .headertext:hover {
-    background-color: gray;
+    background-color: white;
+    color: blue;
     border-radius: 10px;
-    transition: 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 a {
