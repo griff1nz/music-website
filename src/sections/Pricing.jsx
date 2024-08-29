@@ -43,7 +43,7 @@ function Pricing() {
             <div className='section' id='pricing' style={{ padding: '16px' }}>
                 <h1>Pricing</h1>
                 <p>I offer individual 30-minute lessons as well as packages of four or ten weekly lessons. Packages of four or ten 45-minute weekly lessons are also available.</p>
-                <ul>
+                <ul style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
                     {price_data.map(data => <PriceCard key={data.id} title={data.title} price={data.price} description={data.description}/>)}
                     {/* Add individual cards */}
                     {/* <li>30 minute lesson (individual): $25</li>
