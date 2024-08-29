@@ -1,7 +1,36 @@
 .section {
     margin:  20px 10px;
     border-radius: 10px;
+    width: 100%;
 }
 h1 {
     text-align: center;
+}
+#me {
+    display: block;
+    height: 400px; 
+    margin: 4px 50px; 
+    border-radius: 50px; 
+}
+#aboutWrapper {
+    display: flex; 
+    justify-content: space-between;
+}
+#aboutSection {
+    width: 70%;
+}
+@media screen and (max-width: 968px) {
+    #aboutSection {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    #aboutWrapper {
+        display: inline;
+    }
+    #me {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
