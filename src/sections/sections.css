@@ -1,7 +1,12 @@
 .section {
-    margin:  20px 10px;
+    margin:  20px auto;
     border-radius: 10px;
     width: 100%;
+}
+.cardlist {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
 }
 h1 {
     text-align: center;
