@@ -20,7 +20,7 @@ function Header() {
 
                     </div>
                     <div id='mobiledropdown'>
-                        <Button
+                        <Button variant='outline-secondary'
                             onClick={() => setOpen(!open)}
                             aria-controls="example-collapse-text"
                             aria-expanded={open}

@@ -49,11 +49,11 @@ textarea {
 }
 
 #sendbutton {
-    background-color: #0ea5e9;
+    background-color: #50b283;
     border-radius: 10px;
     width: 30%;
     transition: 0.2s;
 }
 #sendbutton:hover {
-    background-color: #387c9c;
+    background-color: #228932;
 }
