@@ -5,7 +5,7 @@ const price_data = [
         id: 'price1',
         title: 'Individual 30 Minute Lesson',
         price: '$25',
-        description: 'One 30 minute lesson',
+        description: 'One-time charge',
         link: 'calendly.com/zion-isaac-griffin',
         buttonText: "Book now"
     },
@@ -13,7 +13,7 @@ const price_data = [
         id: 'price2',
         title: '30 Minute Lesson (Package of 4) - $90',
         price: '$22.50/lesson',
-        description: 'Four weekly 30 minute lessons, charged every 28 days',
+        description: 'Four weekly 30-minute lessons, charged every 28 days',
         link: 'mailto:zion.isaac.griffin@gmail.com',
         buttonText: "Contact me"
     },
@@ -21,7 +21,7 @@ const price_data = [
         id: 'price3',
         title: '30 Minute Lesson (Package of 10) - $220',
         price: '$22/lesson',
-        description: 'Ten weekly 30 minute lessons, charged every 70 days',
+        description: 'Ten weekly 30-minute lessons, charged every 70 days',
         link: 'mailto:zion.isaac.griffin@gmail.com',
         buttonText: "Contact me"
     },
@@ -29,7 +29,7 @@ const price_data = [
         id: 'price4',
         title: '45 Minute Lesson (Package of 4) - $130',
         price: '$32.50/lesson',
-        description: 'Four weekly 45 minute lessons, charged every 28 days',
+        description: 'Four weekly 45-minute lessons, charged every 28 days',
         link: 'mailto:zion.isaac.griffin@gmail.com',
         buttonText: "Contact me"
     },
@@ -37,7 +37,7 @@ const price_data = [
         id: 'price5',
         title: '45 Minute Lesson (Package of 10) - $315',
         price: '$31.50/lesson',
-        description: 'Ten weekly 45 minute lessons, charged every 70 days',
+        description: 'Ten weekly 45-minute lessons, charged every 70 days',
         link: 'mailto:zion.isaac.griffin@gmail.com',
         buttonText: "Contact me"
     },
@@ -49,7 +49,7 @@ function Pricing() {
         <>
             <div className='section' id='pricing' style={{ padding: '16px' }}>
                 <h1>Pricing</h1>
-                <p>I offer individual 30-minute lessons as well as packages of four or ten weekly lessons. Packages of four or ten 45-minute weekly lessons are also available.</p>
+                <p style={{textAlign: 'center'}}>I offer individual 30-minute lessons as well as packages of four or ten 30-minute weekly lessons. Packages of four or ten 45-minute weekly lessons are also available.</p>
                 <div className='cardlist'>
 
                     {price_data.map(data => <PriceCard key={data.id} title={data.title} price={data.price} description={data.description} link={data.link} buttonText={data.buttonText} />)}
@@ -62,7 +62,7 @@ function Pricing() {
 
                 </div>
                 
-                <p>All transactions are processed via Stripe.<a target='_blank' href='../../public/Payment & Refund Policy.pdf'>Click here</a>to view payment and refund terms.</p> {/* Click here will be a link */}
+                <p style={{textAlign: 'center'}}>All transactions are processed via Stripe.<a target='_blank' href='../../public/Payment & Refund Policy.pdf'>Click here</a>to view payment and refund terms.</p> {/* Click here will be a link */}
             </div>
             <hr style={{ width: '70%', margin: 'auto' }} />
         </>

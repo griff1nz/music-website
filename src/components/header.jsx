@@ -11,7 +11,7 @@ function Header() {
         <>
             <header>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <a href='/' className='headertext'>Zion Griffin</a>
+                    <a href='/' className='headertext' id='main'>Griffin Winds & Strings</a>
                     <div id='desktop'>
                         <a href='#about' className='headertext'>About</a>
                         <a href='#pricing' className='headertext'>Pricing</a>

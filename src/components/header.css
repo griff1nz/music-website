@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Sevillana&display=swap');
+
 header {
     padding: 1vh 2vw;
     background-color: #CDCDCD;
     
+}
+#main {
+    font-family: 'Sevillana', cursive;
 }
 
 .headertext {

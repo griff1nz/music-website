@@ -15,15 +15,17 @@ function App() {
       <div style={{ minHeight: '93vh' }}>
         <Header />
         <div className='background'>
-          <motion.h2 style={{ textAlign: 'center', paddingTop: '50px' }}
-            variants={{
-              hidden: { opacity: 0, y: 75 },
-              visible: { opacity: 1, y: 0 },
-            }}
-            initial="hidden"
-            animate="visible"
-            transition={{ duration: 0.5, delay: 0.25 }}
-          >Online Saxophone and Cello Lessons for All Ages</motion.h2>
+          <div style={{ paddingTop: '50px'}}>
+            <motion.h2 style={{ color: 'white', textAlign: 'center', backgroundImage: 'linear-gradient(to bottom right, dimgray, gainsboro', border: '5px solid white', borderRadius: '8px', marginLeft: '25%', marginRight: '25%', padding: '10px'}}
+              variants={{
+                hidden: { opacity: 0, y: 75 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              initial="hidden"
+              animate="visible"
+              transition={{ duration: 0.5, delay: 0.25 }}
+            >Online Saxophone and Cello Lessons for All Ages</motion.h2>
+          </div>
           <div>
             <Button id='button' href='https://calendly.com/zion-isaac-griffin' target='_blank' variant="secondary" size="lg">
               Book a Lesson!
