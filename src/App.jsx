@@ -24,7 +24,7 @@ function App() {
               initial="hidden"
               animate="visible"
               transition={{ duration: 0.5, delay: 0.25 }}
-            >Online Saxophone and Cello Lessons for All Ages</motion.h2>
+            >Online Saxophone and Cello Lessons for East Pennsylvania and Beyond</motion.h2>
           </div>
           <div>
             <Button id='button' href='https://calendly.com/zion-isaac-griffin' target='_blank' variant="secondary" size="lg">

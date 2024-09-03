@@ -25,7 +25,7 @@ function About() {
                     }}
                     initial='hidden'
                     animate={mainControl}
-                    transition={{ease: 'easeOut', duration: 0.5, delay: 0.5}}  id="me" src='../../public/images/about-me.jpg'  />
+                    transition={{ease: 'easeOut', duration: 0.5, delay: 0.5}}  id="me" src='../../images/about-me.jpg'  />
                 </div>
             </div>
             <hr style={{ width: '70%', margin: 'auto' }} />

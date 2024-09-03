@@ -14,10 +14,19 @@ footer {
 .footer-links img {
     height: 30px;
 }
+#footertext {
+    margin: auto 0;
+}
 
 .footer-links img:hover {
     /* shadow: 3px 3px 5px 2px rgb(0 0 0/40%); */
     filter: drop-shadow(gray 5px 5px 10px);
     scale: 120%;
     transition: 0.1s ease-in-out;
+}
+
+@media screen and (max-width: 467px) {
+    #footertext {
+        font-size: 12px;
+    }
 }

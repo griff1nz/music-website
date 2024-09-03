@@ -24,7 +24,7 @@ function PriceCard(props) {
                 <h1>{props.title}</h1>
                 <h4>{props.price}</h4>
                 <p className='desc'>{props.description}</p>
-                <Button className='cardButton' variant='secondary' href={props.link}>{props.buttonText}</Button>
+                <Button className='cardButton' variant='secondary' target="_blank" href={props.link}>{props.buttonText}</Button>
             </motion.div>
     )
 }

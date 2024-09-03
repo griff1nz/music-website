@@ -3,10 +3,10 @@ import PriceCard from "../components/PriceCard";
 const price_data = [
     {
         id: 'price1',
-        title: 'Individual 30 Minute Lesson',
-        price: '$25',
-        description: 'One-time charge',
-        link: 'calendly.com/zion-isaac-griffin',
+        title: 'First Lesson',
+        price: '$10',
+        description: '30-minute introduction lesson',
+        link: 'https://calendly.com/zion-isaac-griffin',
         buttonText: "Book now"
     },
     {
@@ -62,7 +62,7 @@ function Pricing() {
 
                 </div>
                 
-                <p style={{textAlign: 'center'}}>All transactions are processed via Stripe.<a target='_blank' href='../../public/Payment & Refund Policy.pdf'>Click here</a>to view payment and refund terms.</p> {/* Click here will be a link */}
+                <p style={{textAlign: 'center'}}>All transactions are processed via Stripe.<a target='_blank' href='../../Payment & Refund Policy.pdf'>Click here</a>to view payment and refund terms.</p> {/* Click here will be a link */}
             </div>
             <hr style={{ width: '70%', margin: 'auto' }} />
         </>
