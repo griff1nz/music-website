@@ -8,6 +8,7 @@ function Footer() {
                 <a href='https://www.facebook.com/griffin.zi/' target='_blank'><img src='https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-02-512.png' /></a>
                 <a href='https://www.linkedin.com/in/zion-griffin-9aa245243/' target='_blank'><img src='https://cdn-icons-png.flaticon.com/512/61/61109.png' /></a>
                 <a href='mailto:zion.isaac.griffin@gmail.com' target='_blank'><img src='https://www.freeiconspng.com/thumbs/email-icon/email-icon--clipart-best-22.png' /></a>
+                <a href='https://youtube.com/@griffinwindsstrings?si=UdLG-n5vBDt9XRM3' target='_blank'><img src='https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-icon.png' /></a>
             </div>
         </footer>
     )
