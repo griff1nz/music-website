@@ -25,8 +25,10 @@ function Lessons() {
                         {/* <h3>Lesson Times</h3> */}
                         {/* <p>Lessons will take place on Zoom from 3:00pm to 9:00pm Sunday-Thursday, as well as 8:00am to 2:00pm on Saturday. </p>  Will uncomment later*/}
                     </div>
+                    
                 </div>
                 <p style={{ textAlign: 'center' }}><strong>Ready to begin?</strong> Go to the <a href='https://calendly.com/zion-isaac-griffin' target='_blank'>Calendly booking page</a> to book your first lesson, or email me directly for a lesson package! Students of all ages are welcome! (All lesson times are in Eastern Time.)</p>
+                
                 <motion.div ref={ref}
                     variants={{
                         hidden: { opacity: 0, y: 75 },

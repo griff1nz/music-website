@@ -11,6 +11,13 @@
 h1, h4 {
     text-align: center;
 }
+#calendar {
+    border: 1px solid black; 
+    border-radius: 5px; 
+    padding: 10px; 
+    width: 80%; 
+    height:600px;
+}
 #lessonImage {
     display: block; 
     height: 400px; 
@@ -57,5 +64,8 @@ h1, h4 {
     }
     #lessonDiv {
         flex-wrap: wrap-reverse;
+    }
+    #calendar {
+        width: 100%;
     }
 }

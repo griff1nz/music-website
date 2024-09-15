@@ -2,6 +2,7 @@ import About from './sections/About'
 import Lessons from './sections/Lessons'
 import Footer from './components/footer'
 import Contact from './sections/Contact'
+import Schedule from './sections/Schedule'
 import Pricing from './sections/Pricing'
 import './App.css';
 import Header from './components/header';
@@ -38,6 +39,7 @@ function App() {
           <Pricing />
 
           <Lessons />
+          <Schedule />
           <Contact />
         </div>
       </div>

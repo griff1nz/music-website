@@ -16,6 +16,7 @@ function Header() {
                         <a href='#about' className='headertext'>About</a>
                         <a href='#pricing' className='headertext'>Pricing</a>
                         <a href='#lessons' className='headertext'>Lessons</a>
+                        <a href='#schedule' className='headertext'>Schedule</a>
                         <a href='#contact' className='headertext'>Contact</a>
 
                     </div>
@@ -35,6 +36,7 @@ function Header() {
                             <a href='#about'>About</a>
                             <a href='#pricing'>Pricing</a>
                             <a href='#lessons'>Lessons</a>
+                            <a href='#schedule'>Schedule</a>
                             <a href='#contact'>Contact</a>
                         </ul>
                     </div>
