@@ -3,9 +3,9 @@ import PriceCard from "../components/PriceCard";
 const price_data = [
     {
         id: 'price1',
-        title: 'First Lesson',
-        price: '$10',
-        description: '30-minute introduction lesson',
+        title: 'Individual Lesson',
+        price: '$25',
+        description: 'Individual 30-minute lesson',
         link: 'https://calendly.com/zion-isaac-griffin',
         buttonText: "Book now"
     },
