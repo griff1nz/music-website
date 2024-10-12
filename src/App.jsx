@@ -16,7 +16,7 @@ function App() {
       <div style={{ minHeight: '93vh' }}>
         <Header />
         {/* <div className='background'> */}
-          <div style={{ paddingTop: '50px', width: '90%', marginLeft: 'auto', marginRight: 'auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+          <div style={{ paddingTop: '50px', width: '100%', marginLeft: 'auto', marginRight: 'auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center'}} id='top'>
             <motion.h2 id='motionh2' 
               variants={{
                 hidden: { opacity: 0, x: -75 },
@@ -25,7 +25,7 @@ function App() {
               initial="hidden"
               animate="visible"
               transition={{ duration: 0.5, delay: 0.25 }}
-            >Interactive <span style={{color: 'blue'}}>Online</span> Saxophone & Cello Lessons, Anytime, Anywhere</motion.h2>
+            >Interactive <span style={{color: '#33b3ff'}}>Online</span> Saxophone & Cello Lessons, Anytime, Anywhere<br /><p style={{fontSize: '20px', marginTop: '20px'}}>Unlock your musical potential with Griffin Winds & Strings.</p></motion.h2>
             <motion.img  variants={{
                 hidden: { opacity: 0, x: 75 },
                 visible: { opacity: 1, x: 0 },
@@ -36,11 +36,12 @@ function App() {
           </div>
           
           
-          <div>
+          <div style={{marginBottom: '30px'}}>
             <Button id='button' href='https://calendly.com/zion-isaac-griffin' target='_blank' variant="secondary" size="lg">
               Book a Lesson!
             </Button>
           </div>
+          {/* <hr style={{ width: '70%', margin: 'auto', marginTop: '30px'}} /> */}
 
         {/* </div> */}
         <div id='sections'>

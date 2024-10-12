@@ -42,7 +42,7 @@ ul a {
     margin-top: auto;
     margin-bottom: auto;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 970px) {
     #desktop {
         display: none;
     }
@@ -50,7 +50,7 @@ ul a {
         display: block;
     }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 970px) {
     #mobiledropdown {
         display: none;
     }

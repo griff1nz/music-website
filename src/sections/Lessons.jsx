@@ -27,7 +27,7 @@ function Lessons() {
                     </div>
                     
                 </div>
-                <p style={{ textAlign: 'center' }}><strong>Ready to begin?</strong> Go to the <a href='https://calendly.com/zion-isaac-griffin' target='_blank'>Calendly booking page</a> to book your first lesson, or email me directly for a lesson package! Students of all ages are welcome! (All lesson times are in Eastern Time.)</p>
+                <p style={{ textAlign: 'center', lineHeight: '1.5'}}><strong>Ready to begin?</strong> Go to the <a href='https://calendly.com/zion-isaac-griffin' target='_blank'>Calendly booking page</a> to book your first lesson, or email me directly for a lesson package! Students of all ages are welcome! (All lesson times are in Eastern Time.)</p>
                 
                 <motion.div ref={ref}
                     variants={{

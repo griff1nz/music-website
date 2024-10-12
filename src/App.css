@@ -31,13 +31,31 @@
   margin-right: 10%;
 }
 #saximg {
-  width: 600px;
+  width: 40vw;
   margin-right: 5%;
   border-radius: 50px;
 }
-@media screen and (max-height: 600px) {
-  .background {
-    height: 300px;
+#top {
+  background: linear-gradient(170deg, #CDCDCD 0%, #CDCDCD, #CDCDCD 40%, transparent 40%);
+}
+@media screen and (max-width: 1045px) {
+  #top {
+    flex-direction: column;
+  }
+  #saximg {
+    width: 50%;
+  }
+  #motionh2 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #motionh2 {
+    font-size: 40px;
+  }
+  #saximg {
+    width: 70%;
   }
 }
 #content {
