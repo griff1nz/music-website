@@ -15,28 +15,34 @@ function App() {
     <>
       <div style={{ minHeight: '93vh' }}>
         <Header />
-        <div className='background'>
-          <div style={{ paddingTop: '50px' }}>
-            <motion.h2 style={{ color: 'white', textAlign: 'center', backgroundImage: 'linear-gradient(to bottom right, dimgray, gainsboro', border: '5px solid white', borderRadius: '8px', marginLeft: '25%', marginRight: '25%', padding: '10px' }}
+        {/* <div className='background'> */}
+          <div style={{ paddingTop: '50px', width: '90%', marginLeft: 'auto', marginRight: 'auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+            <motion.h2 id='motionh2' 
               variants={{
-                hidden: { opacity: 0, y: 75 },
-                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, x: -75 },
+                visible: { opacity: 1, x: 0 },
               }}
               initial="hidden"
               animate="visible"
               transition={{ duration: 0.5, delay: 0.25 }}
-            >Interactive Online Saxophone & Cello Lessons, Anytime, Anywhere</motion.h2>
+            >Interactive <span style={{color: 'blue'}}>Online</span> Saxophone & Cello Lessons, Anytime, Anywhere</motion.h2>
+            <motion.img  variants={{
+                hidden: { opacity: 0, x: 75 },
+                visible: { opacity: 1, x: 0 },
+              }}
+              initial="hidden"
+              animate="visible"
+              transition={{ duration: 0.5, delay: 0.25 }}src='https://images.pexels.com/photos/45243/saxophone-music-gold-gloss-45243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' id='saximg' ></motion.img>
           </div>
-          <div style={{ display: 'flex' }}>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/QXFK3wiEm8Y?si=bl6enjYkewQAk9a8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen style={{ marginLeft: 'auto', marginRight: "auto", marginTop:'10px', height: '25vh', width: '430px'}}></iframe>
-          </div>
+          
+          
           <div>
             <Button id='button' href='https://calendly.com/zion-isaac-griffin' target='_blank' variant="secondary" size="lg">
               Book a Lesson!
             </Button>
           </div>
 
-        </div>
+        {/* </div> */}
         <div id='sections'>
           <About />
           <Pricing />

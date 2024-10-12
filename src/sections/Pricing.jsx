@@ -4,39 +4,39 @@ const price_data = [
     {
         id: 'price1',
         title: 'Individual Lesson',
-        price: '$25',
+        price: '$20',
         description: 'Individual 30-minute lesson',
         link: 'https://calendly.com/zion-isaac-griffin',
         buttonText: "Book now"
     },
     {
         id: 'price2',
-        title: '30 Minute Lesson (Package of 4) - $90',
-        price: '$22.50/lesson',
+        title: '30 Minute Lesson (Package of 4) - $75',
+        price: '$18.75/lesson',
         description: 'Four weekly 30-minute lessons, charged every 28 days',
         link: 'mailto:zion.isaac.griffin@gmail.com',
         buttonText: "Contact me"
     },
     {
         id: 'price3',
-        title: '30 Minute Lesson (Package of 10) - $220',
-        price: '$22/lesson',
+        title: '30 Minute Lesson (Package of 10) - $180',
+        price: '$18/lesson',
         description: 'Ten weekly 30-minute lessons, charged every 70 days',
         link: 'mailto:zion.isaac.griffin@gmail.com',
         buttonText: "Contact me"
     },
     {
         id: 'price4',
-        title: '45 Minute Lesson (Package of 4) - $130',
-        price: '$32.50/lesson',
+        title: '45 Minute Lesson (Package of 4) - $110',
+        price: '$27.50/lesson',
         description: 'Four weekly 45-minute lessons, charged every 28 days',
         link: 'mailto:zion.isaac.griffin@gmail.com',
         buttonText: "Contact me"
     },
     {
         id: 'price5',
-        title: '45 Minute Lesson (Package of 10) - $315',
-        price: '$31.50/lesson',
+        title: '45 Minute Lesson (Package of 10) - $250',
+        price: '$25/lesson - Best value!',
         description: 'Ten weekly 45-minute lessons, charged every 70 days',
         link: 'mailto:zion.isaac.griffin@gmail.com',
         buttonText: "Contact me"
