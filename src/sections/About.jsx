@@ -17,7 +17,9 @@ function About() {
                 <h1>About</h1>
                 <div id='aboutWrapper'>
                     <div id='aboutSection'>
-                        <p>Zion was born and raised in East Pennsylvania, attending East Penn School District. He began his musical journey in 6th grade when he picked up the alto saxophone, followed by learning the cello in 8th grade. Switching between string and wind instruments, Zion was an active member of the concert and jazz bands as well as Sinfonia and chamber orchestra during his time in school. He studied under Carrie England at Eyer Middle School, then under Ryan Harrington and Connie Arnold at Emmaus High School until he graduated in 2023.<br />Starting in 2024, Zion began sharing his musical expertise by providing online music lessons via Zoom. </p>
+                        <p>Hi! My name is Zion. Born and raised in East Pennsylvania, I attended East Penn School District, graduating from Emmaus High School in 2023. I began my musical journey in 6th grade when I picked up the alto saxophone, followed by learning the cello in 8th grade. Switching between string and wind instruments, I was an active member of the concert and jazz bands as well as Sinfonia and chamber orchestra during my time in school. I studied under Carrie England at Eyer Middle School, then under Ryan Harrington and Connie Arnold at Emmaus High School.<br />Starting in 2024, I began sharing my musical expertise by providing online music lessons via Zoom. </p>
+                        <h2>Why online?</h2>
+                        <p>Throughout my career as a student prior to getting a vehicle, I was dependent on my parents to transport me to and from my lessons. However, they were occasionally unavailable to provide transportation, preventing me from attending my lessons and creating a barrier for my learning. <br />I believe that online lessons are just as effective as in-person lessons, with the added bonus of the student being able to attend from their own home without having to travel to and from lessons.</p>
                         
                     </div>
                     <motion.img ref={ref} variants={{

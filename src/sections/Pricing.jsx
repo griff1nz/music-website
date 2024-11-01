@@ -13,7 +13,7 @@ const price_data = [
         id: 'price2',
         title: '30 Minute Lesson (Package of 4) - $75',
         price: '$18.75/lesson',
-        description: 'Four weekly 30-minute lessons, charged every 28 days',
+        description: 'Four weekly 30-minute lessons',
         link: 'mailto:zion.isaac.griffin@gmail.com',
         buttonText: "Contact me"
     },
@@ -21,7 +21,7 @@ const price_data = [
         id: 'price3',
         title: '30 Minute Lesson (Package of 10) - $180',
         price: '$18/lesson',
-        description: 'Ten weekly 30-minute lessons, charged every 70 days',
+        description: 'Ten weekly 30-minute lessons',
         link: 'mailto:zion.isaac.griffin@gmail.com',
         buttonText: "Contact me"
     },
@@ -29,7 +29,7 @@ const price_data = [
         id: 'price4',
         title: '45 Minute Lesson (Package of 4) - $110',
         price: '$27.50/lesson',
-        description: 'Four weekly 45-minute lessons, charged every 28 days',
+        description: 'Four weekly 45-minute lessons',
         link: 'mailto:zion.isaac.griffin@gmail.com',
         buttonText: "Contact me"
     },
@@ -37,7 +37,7 @@ const price_data = [
         id: 'price5',
         title: '45 Minute Lesson (Package of 10) - $250',
         price: '$25/lesson - Best value!',
-        description: 'Ten weekly 45-minute lessons, charged every 70 days',
+        description: 'Ten weekly 45-minute lessons',
         link: 'mailto:zion.isaac.griffin@gmail.com',
         buttonText: "Contact me"
     },

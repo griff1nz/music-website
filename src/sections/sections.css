@@ -32,10 +32,11 @@ h1, h4 {
 }
 #aboutWrapper {
     display: flex; 
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 0 40px;
 }
 #aboutSection {
-    width: 70%;
+    width: 60%;
     display: flex;
     line-height: 1.6;
     flex-direction: column;
